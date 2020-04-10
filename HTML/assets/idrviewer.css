@@ -1,0 +1,248 @@
+/* IDRViewer - v1.8.2 */
+
+/* Layout Styles */
+.page {
+    display:block;
+    overflow: hidden;
+    background-color: white;
+}
+
+.page-inner {
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+#idrviewer {
+    overflow: auto;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    visibility: hidden;
+}
+
+#overlay.panning {
+    visibility: visible;
+    cursor: all-scroll;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+#overlay.panning.mousedown {
+    cursor: all-scroll;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+/* Presentation Layout */
+.layout-presentation .page {
+    visibility: hidden;
+    position: absolute;
+}
+.layout-presentation .page.current {
+    visibility: visible !important;
+    z-index: 1; /* Fix selection in IE/Edge */
+}
+
+/* Continuous Layout */
+.layout-continuous .page {
+    margin: 0 auto 10px;
+}
+.layout-continuous .page:last-child {
+    margin: 0 auto 0;
+}
+
+/* Continuous_Horizontal Layout */
+#idrviewer.layout-continuous_horizontal {
+    overflow: hidden;
+
+    /*-webkit-scroll-snap-type: mandatory;*/
+    /*-webkit-scroll-snap-points-x: repeat(100%);*/
+}
+
+.layout-continuous_horizontal .page {
+    display: inline-block;
+    transform: translate3d(0, 0, 0);
+}
+
+/* Magazine Layout */
+.layout-magazine .page {
+    visibility: hidden;
+    position: absolute;
+}
+.layout-magazine .page.current {
+    visibility: visible !important;
+    z-index: 1; /* Fix selection in IE/Edge */
+}
+
+
+
+/* Slide Transition */
+.layout-presentation.transition-slide .page {
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.4s;
+    transition: opacity 0.2s, transform 0.4s;
+    opacity: 0;
+    visibility: visible !important;
+}
+.layout-presentation.transition-slide .page.current {
+    visibility: visible !important;
+    opacity: 1;
+}
+.layout-presentation.transition-slide .page.after {
+    visibility: visible !important;
+    -webkit-transform: translateX(130%);
+    transform: translateX(130%);
+    -webkit-transition-delay: 0.1s, 0s;
+    transition-delay: 0.1s, 0s;
+}
+.layout-presentation.transition-slide .page.before {
+    visibility: visible !important;
+    -webkit-transform: translateX(-130%);
+    transform: translateX(-130%);
+    -webkit-transition-delay: 0.1s, 0s;
+    transition-delay: 0.1s, 0s;
+}
+
+/* Fade Transition */
+.layout-presentation.transition-fade .page {
+    -webkit-transition: visibility 0.5s, opacity 0.5s;
+    transition: visibility 0.5s, opacity 0.5s;
+    opacity: 1;
+}
+.layout-presentation.transition-fade .page.prev,
+.layout-presentation.transition-fade .page.next {
+    opacity: 0;
+    z-index: 2;
+}
+
+/* Flip Transition */
+.layout-presentation.transition-flip > div > div {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.layout-presentation.transition-flip .page {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.layout-presentation.transition-flip .page.before {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.layout-presentation.transition-flip .page.after {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.layout-presentation.transition-flip .next,
+.layout-presentation.transition-flip .prev {
+    visibility: visible;
+}
+
+/* Throw Transition */
+.layout-presentation.transition-throw .page {
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.layout-presentation.transition-throw .page.current {
+    visibility: visible !important;
+    z-index: 3;
+    opacity: 1;
+}
+.layout-presentation.transition-throw .page.prev {
+    visibility: visible !important;
+    opacity: 0;
+    z-index: 4;
+}
+.layout-presentation.transition-throw .page.prev:nth-child(even) {
+    -webkit-transform: translate(100%, -100%) rotate(240deg);
+    transform: translate(100%, -100%) rotate(240deg);
+}
+.layout-presentation.transition-throw .page.prev:nth-child(odd) {
+    -webkit-transform: translate(-100%, -100%) rotate(-240deg);
+    transform: translate(-100%, -100%) rotate(-240deg);
+}
+.layout-presentation.transition-throw .page.next {
+    visibility: visible !important;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Magazine Transition */
+.layout-magazine.transition-magazine > div > div {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 3000px;
+    perspective: 3000px;
+}
+.layout-magazine.transition-magazine .page {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+:not(.isR2L).layout-magazine.transition-magazine .page:nth-child(odd),
+.isR2L.layout-magazine.transition-magazine .page:nth-child(even) {
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+}
+:not(.isR2L).layout-magazine.transition-magazine .page:nth-child(even),
+.isR2L.layout-magazine.transition-magazine .page:nth-child(odd) {
+    -webkit-transform-origin: right top 0;
+    transform-origin: right top 0;
+}
+.layout-magazine.transition-magazine .page.current,
+:not(.isR2L).layout-magazine.transition-magazine .page.prev:nth-child(even),
+:not(.isR2L).layout-magazine.transition-magazine .page.next:nth-child(odd),
+:not(.isR2L).layout-magazine.transition-magazine .page.before:nth-child(even),
+:not(.isR2L).layout-magazine.transition-magazine .page.after:nth-child(odd),
+.isR2L.layout-magazine.transition-magazine .page.next:nth-child(odd),
+.isR2L.layout-magazine.transition-magazine .page.prev:nth-child(even),
+.isR2L.layout-magazine.transition-magazine .page.after:nth-child(odd),
+.isR2L.layout-magazine.transition-magazine .page.before:nth-child(even) {
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+:not(.isR2L).layout-magazine.transition-magazine .page.before:nth-child(odd),
+:not(.isR2L).layout-magazine.transition-magazine .page.prev:nth-child(odd),
+.isR2L.layout-magazine.transition-magazine .page.after:nth-child(even),
+.isR2L.layout-magazine.transition-magazine .page.next:nth-child(even) {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
+
+:not(.isR2L).layout-magazine.transition-magazine .page.after:nth-child(even),
+:not(.isR2L).layout-magazine.transition-magazine .page.next:nth-child(even),
+.isR2L.layout-magazine.transition-magazine .page.before:nth-child(odd),
+.isR2L.layout-magazine.transition-magazine .page.prev:nth-child(odd){
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    z-index: 3;
+}
+
+.layout-magazine.transition-magazine .page.prev,
+.layout-magazine.transition-magazine .page.next {
+    visibility: visible;
+}
+.layout-magazine.transition-magazine .page.current {
+    z-index: 2;
+}
