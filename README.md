@@ -2,8 +2,8 @@
     <img src="./MariotekLogo.png" >
 </center>
 
-(Download PDF version)[https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf]
-(Study online)[https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf]
+[Download PDF version](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf)
+[Study online](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf)
 
 ### Getting started
 
@@ -13,8 +13,8 @@ This book is made in 254 pages to teach funamentals about `javascript` language 
 
 We provide a lot of ways to use `Better Understaning of JS book`,
 
-## About the author
+### About the author
 
 This book is made by JafarRezaei(SayJeyHi), I read some js books like YDNJS or eloquent js, and they are really good. But I just want make a persian resource to my people who sanctions and other laws do not let them to learn free and use open source.
 
-#### The GPU License (GPU)
+feel free to contact me at : [sayjeyhi@gmail.com](mailto:sayjeyhi@gmail.com)
