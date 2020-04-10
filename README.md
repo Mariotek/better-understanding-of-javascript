@@ -1,6 +1,6 @@
-<center>
+<p align="center">
     <img src="./MariotekLogo.png" >
-</center>
+</p>
 
 [Download PDF version](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf) -
 [Study online](https://mariotek.github.io/BetterUnderstandingOfJavascript/HTML/?page=1)
@@ -21,8 +21,8 @@ feel free to contact me at : [sayjeyhi@gmail.com](mailto:sayjeyhi@gmail.com), I 
 
 ### Donate !
 
-🛍 If you like the book, or want to use the phisical one, use mariotek site to [buy it](https://zarinp.al/242088) from mariotek platform.
+🛍 If you like the book, or want to use the phisical one, [buy it](https://zarinp.al/242088) from [mariotek platform](http://mariotek.ir).
 
-<center>
-    <img src="./phisical.png" alt="BetterUnderstanding of js book" />
-</center>
+<a href="https://zarinp.al/242088" target="_blank" align="center">
+    <img src="./phisical.png" width="700" alt="BetterUnderstanding of js book" />
+</a>
