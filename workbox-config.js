@@ -4,6 +4,8 @@ module.exports = {
   swDest: "HTML/sw.js",
   skipWaiting: true,
   clientsClaim: true,
+  navigateFallback: "index.html",
+  // cleanupOutdatedCaches: true,
   runtimeCaching: [
     {
       urlPattern: "/",
