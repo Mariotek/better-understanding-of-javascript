@@ -1,7 +1,7 @@
 module.exports = {
   globDirectory: "HTML/",
   globPatterns: ["**/*.{html,svg,png,json,js,css,xml,ico,woff,txt,jpg}"],
-  swDest: "HTML/service-worker.js",
+  swDest: "HTML/sw.js",
   skipWaiting: true,
   clientsClaim: true,
 
