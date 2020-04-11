@@ -4,8 +4,8 @@
   "theme_color": "#f7df1e",
   "background_color": "#f7df1e",
   "display": "fullscreen",
-  "scope": "/BetterUnderstandingOfJavascript/HTML/",
-  "start_url": "/BetterUnderstandingOfJavascript/HTML/index.html",
+  "scope": "/HTML/",
+  "start_url": "/HTML/index.html",
   "icons": [
     {
       "src": "android-icon-36x36.png",

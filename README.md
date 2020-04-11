@@ -3,7 +3,7 @@
 </p>
 
 [Download PDF version](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf) -
-[Study online](https://mariotek.github.io/BetterUnderstandingOfJavascript/HTML/?page=1)
+[Study online](http://book.sayjeyhi.com/HTML/?page=1)
 
 ### Getting started
 
@@ -11,7 +11,7 @@ This book is made in `254 pages` to teach funamentals about `javascript` languag
 
 ### How to use?
 
-We provide a lot of ways to use `Better Understaning of JS book`, such as [PDF version](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf), [online HTML](https://mariotek.github.io/BetterUnderstandingOfJavascript/HTML/?page=1), images, and blo blo. There is a Qrcode beside of every code in the book, and you can see a working code snippet with that QR code.
+We provide a lot of ways to use `Better Understaning of JS book`, such as [PDF version](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf), [online HTML](http://book.sayjeyhi.com/HTML/?page=1), images, and blo blo. There is a Qrcode beside of every code in the book, and you can see a working code snippet with that QR code.
 
 ### About the author
 
