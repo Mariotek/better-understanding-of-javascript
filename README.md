@@ -3,16 +3,16 @@
 </p>
 
 <a href="https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf" target="_blank" align="right">
-    <img src="./image-pdf.png" width="200" alt="PDF version" />
+    <img src="./image-pdf.png" width="150" alt="PDF version" />
 </a>
 <a href="https://github.com/Mariotek/BetterUnderstandingOfJavascript/raw/master/APK/BetterUnderstandingOfJavascript.apk" target="_blank" align="right">
-    <img src="./image-apk.png" width="200" alt="APK version" />
+    <img src="./image-apk.png" width="150" alt="APK version" />
 </a>
 <a href="http://book.sayjeyhi.com/HTML/?page=1" target="_blank" align="right">
-    <img src="./image-sutdy.png" width="200" alt="PDF version" />
+    <img src="./image-study.png" width="150" alt="PDF version" />
 </a>
 <a href="https://zarinp.al/242088" target="_blank" align="right">
-    <img src="./image-phisical.png" width="170" alt="Buy print version" />
+    <img src="./image-buy.png" width="120" alt="Buy print version" />
 </a>
 
 ### Getting started
