@@ -9,10 +9,10 @@
     <img src="./image-apk.png" width="150" alt="APK version" />
 </a>
 <a href="http://book.sayjeyhi.com/HTML/?page=1" target="_blank" align="right">
-    <img src="./image-study.png" width="150" alt="PDF version" />
+    <img src="./image-study.png" width="120" alt="PDF version" />
 </a>
 <a href="https://zarinp.al/242088" target="_blank" align="right">
-    <img src="./image-buy.png" width="120" alt="Buy print version" />
+    <img src="./image-buy.png" width="150" alt="Buy print version" />
 </a>
 
 ### Getting started
