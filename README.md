@@ -1,9 +1,19 @@
 <p align="center">
-    <img src="./MariotekLogo.png" >
+    <img src="./image-MariotekLogo.png" >
 </p>
 
-[Download PDF version](https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf) -
-[Study online](http://book.sayjeyhi.com/HTML/?page=1)
+<a href="https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf" target="_blank" align="right">
+    <img src="./image-pdf.png" width="200" alt="PDF version" />
+</a>
+<a href="https://github.com/Mariotek/BetterUnderstandingOfJavascript/raw/master/APK/BetterUnderstandingOfJavascript.apk" target="_blank" align="right">
+    <img src="./image-apk.png" width="200" alt="APK version" />
+</a>
+<a href="http://book.sayjeyhi.com/HTML/?page=1" target="_blank" align="right">
+    <img src="./image-sutdy.png" width="200" alt="PDF version" />
+</a>
+<a href="https://zarinp.al/242088" target="_blank" align="right">
+    <img src="./image-phisical.png" width="170" alt="Buy print version" />
+</a>
 
 ### Getting started
 
@@ -19,10 +29,10 @@ This book is made by JafarRezaei([SayJeyHi](https://twitter.com/Sayjeyhi)), I re
 
 feel free to contact me at : [sayjeyhi@gmail.com](mailto:sayjeyhi@gmail.com), I will be glad to see your feedbacks.
 
-### Donate !
+### Print version
 
 🛍 If you like the book, or want to use the phisical one, [buy it](https://zarinp.al/242088) from [mariotek platform](http://mariotek.ir).
 
 <a href="https://zarinp.al/242088" target="_blank" align="center">
-    <img src="./phisical.png" width="700" alt="BetterUnderstanding of js book" />
+    <img src="./image-phisical.png" width="700" alt="BetterUnderstanding of js book" />
 </a>

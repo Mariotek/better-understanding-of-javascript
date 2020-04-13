@@ -1,5 +1,5 @@
 <center>
-    <img src="../MariotekLogo.png" >
+    <img src="../image-MariotekLogo.png" >
 </center>
 
 ### I am sorry but this is not available yet. feel free to contribute me!
