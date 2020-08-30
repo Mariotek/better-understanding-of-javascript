@@ -2,6 +2,7 @@
     <img src="./image-MariotekLogo.png" >
 </p>
 
+
 <a href="https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/PDF/project.pdf" target="_blank" align="right">
     <img src="./image-pdf.png" width="150" alt="PDF version" />
 </a>
