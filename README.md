@@ -9,7 +9,7 @@
 <a href="https://github.com/Mariotek/BetterUnderstandingOfJavascript/raw/master/APK/BetterUnderstandingOfJavascript.apk" target="_blank" align="right">
     <img src="./image-apk.png" width="150" alt="APK version" />
 </a>
-<a href="http://book.sayjeyhi.com/HTML/?page=1" target="_blank" align="right">
+<a href="https://js.basic.sayjeyhi.com/HTML/?page=1" target="_blank" align="right">
     <img src="./image-study.png" width="120" alt="PDF version" />
 </a>
 <a href="https://zarinp.al/242088" target="_blank" align="right">
