@@ -18,7 +18,7 @@
 
 ### Getting started
 
-This book is made in `254 pages` to teach fundamentals about `JavaScript` language with a focus on summary and brief. I tried to teach everything which could help the reader to learn fast and complete. This book currently available just in the `Persian` language, but I have a plan to translate it into English and help other people to study it.
+This book is made in `254 pages` to teach fundamentals about `JavaScript` language with a focus on summary and brief. I tried to teach everything which could help the reader to learn fast and completely. This book is currently available just in the `Persian` language, but I have a plan to translate it into English and help other people to study it.
 
 ### How to use it?
 
@@ -26,13 +26,12 @@ We provide a lot of ways to use Better Understanding of JS books, such as [PDF v
 
 ### About the author
 
-This book is made by JafarRezaei([SayJeyHi](https://twitter.com/Sayjeyhi)), I read some JS books like YDNJS or eloquent JS, and they are really good. But I just want to make a Persian resource to my people who sanctions and other laws do not let them learn free and use open source.
+This book is written by JafarRezaei([SayJeyHi](https://twitter.com/Sayjeyhi)), I read some JS books like YDNJS or eloquent JS, and they are really good. But I just want to make a Persian resource for my people whose sanctions and other laws do not let them learn free and use open source.
 
 Feel free to contact me at [sayjeyhi@gmail.com](mailto:sayjeyhi@gmail.com), I will be glad to see your feedback.
 
 ### Print version
-
-🛍 If you like the book or want to use the physical one, [buy it](https://zarinp.al/242088) from [the Mariotek platform](http://mariotek.ir).
+We ran out of printed versions, we might prepare it again but there is no plan for this yet.
 
 <a href="https://zarinp.al/242088" target="_blank" align="center">
     <img src="./image-physical.png" width="700" alt="BetterUnderstanding of js book" />
